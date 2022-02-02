@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:ital,wght@0,200;1,300&family=Sarala:wght@700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:white;
+}
+
+/* Menu*/
+.mainhome{ 
+    padding-top: 50px;
+    background: rgb(34,69,123);
+    background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
+    
+}
+.menu {
+    background-color: rgb(34,69,123);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-block;
+    padding:20px;
+}
+
+.menu ul li{
+    padding: 10px;
+    display: inline;
+}
+
+.menu ul li a{
+
+    color: #f19100;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    padding:20px;
+    transition:background .6s;
+}
+
+.menu ul li a:hover{
+   background-color: #1f9906;
+    color: #ffe0b3;
+}
