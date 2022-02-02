@@ -4,26 +4,25 @@
 *{
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color:white;
+    /*background-color:gray;*/
+background: linear-gradient(white, blue); 
 }
 
 /* Menu*/
-.mainhome{ 
-    padding-top: 50px;
-    background: rgb(34,69,123);
-    background: linear-gradient(0deg, rgba(34,69,123,1) 0%, rgba(137,166,213,1) 100%);
-    
+.fundo {
+    background-color: white;
+
 }
+
 .menu {
     background-color: rgb(34,69,123);
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .menu ul {
@@ -42,12 +41,52 @@ body{
     color: #f19100;
     text-decoration: none;
     font-family: 'Sarala', sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     padding:20px;
-    transition:background .6s;
+    transition:background .2s;
+
 }
 
 .menu ul li a:hover{
-   background-color: #1f9906;
-    color: #ffe0b3;
+   background-color: #0000EE;
+    color: #fff8dc;
+
+
 }
+
+/*Rodapé*/
+.rodape {
+   
+    background-color: rgb(13, 40, 82);
+    font-size: 15px;
+    color: #f19100;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Sarala', sans-serif;
+}
+
+
+
+.rodape section{
+    display:inline-block;
+    background: white;
+    border-radius: 5%;
+    padding: 15px;
+    width: 500px;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.rodape input{
+    border-radius: 40px;
+}
+
+.botão{
+    display:inline-block;
+    background:cyan ;
+    border-radius: 50%;
+    padding: 15px;
+    width: 400px;
+    margin-top: 3%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        }

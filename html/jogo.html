@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -10,27 +10,26 @@
 
 <body>
     <header class="o-header">
-        <nav class="menu">
-                <ul >
-                    <li><a href=".">Home</a></li>    
-                    <li><a href="./opoder.html">O Poder do Sol</a></li>    
-                    <li><a href="./beneficios.html">Benefícios</a></li>    
-                    <li><a href="./como_funciona.html">Como Funciona?</a></li>    
-                    <li><a href="./onde_encontrar.html">Onde Encontrar?</a></li>     
-                    <li><a href="./quem_somos.html">Quem Somos?</a></li>       
-                </ul>
-        </nav>
-        
-    </head>
+        <header>
+            <nav class="menu">
+                    <ul>
+                        <li><a href="./principal.html">home</a></li>
+                        <li><a href="./jogo.html">testar velocidade</a></li>    
+                        <li><a href="./cores.html">desestressar</a></li>                            
+                    </ul>
+            </nav>
+        </head>
+    </header> 
+ </body>     
 
-<canvas width="600" height="400"></canvas>
+<canvas width="600" height="400" class="fundo"></canvas>
 
 <script>
 
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
-    pincel.fillStyle = 'lightgray';
+    pincel.fillStyle = 'white';
     pincel.fillRect(0, 0, 600, 400);
 
     var raio = 10;
